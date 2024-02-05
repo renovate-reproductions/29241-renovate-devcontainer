@@ -7,16 +7,6 @@
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": [
-        ".devcontainer/devcontainer.json"
-      ],
-      "matchStrings": [
-        "\"image\": \"(?<depName>mcr.microsoft.com/vscode/devcontainers/base):(?<currentValue>.*)\""
-      ],
-      "datasourceTemplate": "docker"
-    },
-    {
-      "customType": "regex",
       "matchStringsStrategy": "combination",
       "fileMatch": [
         ".devcontainer/devcontainer.json"
@@ -67,15 +57,6 @@
       "extractVersionTemplate": "^v?(?<version>.*)$",
       "depNameTemplate": "pre-commit/pre-commit",
       "datasourceTemplate": "github-releases"
-    }
-  ],
-  "packageRules": [
-    {
-      "matchPackageNames": [
-        "mcr.microsoft.com/vscode/devcontainers/base"
-      ],
-      "pinDigests": false,
-      "versioning": "regex:^ubuntu-(?<major>\\d+)\\.(?<minor>\\d+)$"
     }
   ]
 }
