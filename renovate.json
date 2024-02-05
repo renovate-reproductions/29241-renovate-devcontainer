@@ -75,8 +75,7 @@
         "mcr.microsoft.com/vscode/devcontainers/base"
       ],
       "pinDigests": false,
-      "versioning": "loose"
+      "versioning": "regex:^ubuntu-(?<major>\\d+)\\.(?<minor>\\d+)$"
     }
   ]
-
 }
