@@ -74,7 +74,8 @@
       "matchPackageNames": [
         "mcr.microsoft.com/vscode/devcontainers/base"
       ],
-      "pinDigests": false
+      "pinDigests": false,
+      "versioning": "loose"
     }
   ]
 
