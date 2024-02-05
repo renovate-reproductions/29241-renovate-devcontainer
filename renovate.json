@@ -98,7 +98,7 @@
       "depNameTemplate": "pre-commit/pre-commit",
       "datasourceTemplate": "github-releases"
     }
-  ]
+  ],
   "packageRules": [
     {
       "matchPackageNames": [
