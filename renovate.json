@@ -68,5 +68,14 @@
       "depNameTemplate": "pre-commit/pre-commit",
       "datasourceTemplate": "github-releases"
     }
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "mcr.microsoft.com/vscode/devcontainers/base"
+      ],
+      "pinDigests": false
+    }
   ]
+
 }
