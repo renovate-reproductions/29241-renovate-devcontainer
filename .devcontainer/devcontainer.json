@@ -2,7 +2,7 @@
     "name": "infrastructure-live",
     "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu-22.04",
     "features": {
-        "ghcr.io/devcontainers/features/ruby:1.2.0": {
+        "ghcr.io/devcontainers/features/ruby:1.2.1": {
             "version": "3.2.2"
         },
         "ghcr.io/devcontainers-contrib/features/pre-commit:2.0.17": {
